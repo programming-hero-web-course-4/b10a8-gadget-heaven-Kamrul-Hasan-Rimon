@@ -1,0 +1,14 @@
+[
+    {
+        "product_id": "c1",
+        "category": "computers"
+    },
+    {
+        "product_id": "p1",
+        "category": "phones"
+    },
+    {
+        "product_id": "s1",
+        "category": "smartwatches"
+    }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "product_id": "1",
+    "product_title": "Dell XPS 13",
+    "product_image": "../src/assets/images/1.jpg",
+    "category": "computers",
+    "price": 999,
+    "description": "The Dell XPS 13 is a compact and powerful ultrabook designed for both professionals and everyday users. Equipped with the latest Intel Core i7 processor, it delivers smooth performance. Its nearly bezel-less 13-inch InfinityEdge display offers stunning visuals, while its lightweight build makes it ultra-portable.",
+    "specification": [
+      "13-inch display",
+      "16GB RAM",
+      "512GB SSD"
+    ],
+    "availability": "Out of stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "2",
+    "product_title": "MacBook Pro 14",
+    "product_image": "../src/assets/images/2.jpg",
+    "category": "computers",
+    "price": 1999,
+    "description": "Apple’s MacBook Pro 14 is a powerhouse featuring the M1 Pro chip for lightning-fast performance. Its Retina XDR display ensures vibrant and true-to-life colors, ideal for creative professionals. Coupled with exceptional battery life and macOS, it offers a seamless user experience.",
+    "specification": [
+      "14-inch Retina display",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "availability": "In stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "3",
+    "product_title": "HP Spectre x360",
+    "product_image": "../src/assets/images/3.jpg",
+    "category": "computers",
+    "price": 1299,
+    "description": "The HP Spectre x360 combines power and elegance in a 2-in-1 design. Featuring a stunning OLED touchscreen, this laptop is perfect for multitasking, creative work, or entertainment. Its flexible hinge allows it to be used as a laptop or tablet with ease.",
+    "specification": [
+      "13-inch OLED display",
+      "16GB RAM",
+      "512GB SSD"
+    ],
+    "availability": "Out of stock",
+    "rating": 4.7
+  },
+  {
+    "product_id": "4",
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "../src/assets/images/4.jpg",
+    "category": "computers",
+    "price": 1499,
+    "description": "The Lenovo ThinkPad X1 Carbon is a business-grade laptop that combines portability with durability. Built with premium materials, it is lightweight yet rugged. Powered by advanced processors and featuring a long-lasting battery, it’s ideal for work on the go.",
+    "specification": [
+      "14-inch display",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "availability": "Out of stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "5",
+    "product_title": "Asus ROG Zephyrus G14",
+    "product_image": "../src/assets/images/5.jpg",
+    "category": "computers",
+    "price": 1599,
+    "description": "Asus ROG Zephyrus G14 is the ultimate gaming laptop, equipped with an AMD Ryzen 9 processor and a powerful GPU. Its sleek and lightweight design ensures portability, while the QHD display offers immersive visuals, making it perfect for gaming and creative tasks.",
+    "specification": [
+      "14-inch QHD display",
+      "32GB RAM",
+      "1TB SSD"
+    ],
+    "availability": "In stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "6",
+    "product_title": "Acer Swift 3",
+    "product_image": "../src/assets/images/6.jpg",
+    "category": "computers",
+    "price": 799,
+    "description": "The Acer Swift 3 is a budget-friendly ultrabook that doesn’t compromise on performance. Ideal for students and professionals, it offers a sleek design, robust battery life, and smooth multitasking with its reliable hardware configuration.",
+    "specification": [
+      "14-inch display",
+      "8GB RAM",
+      "256GB SSD"
+    ],
+    "availability": "Out of stock",
+    "rating": 4.5
+  },
+  {
+    "product_id": "7",
+    "product_title": "iPhone 13 Pro",
+    "product_image": "../src/assets/images/7.jpg",
+    "category": "phones",
+    "price": 999,
+    "description": "Apple's iPhone 13 Pro is the pinnacle of smartphone technology. With its A15 Bionic chip, it delivers unmatched performance. The advanced camera system ensures professional-grade photography, while the Super Retina XDR display brings visuals to life.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "128GB storage"
+    ],
+    "availability": "Out of stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "8",
+    "product_title": "Samsung Galaxy S21 Ultra",
+    "product_image": "../src/assets/images/8.jpg",
+    "category": "phones",
+    "price": 1199,
+    "description": "Samsung Galaxy S21 Ultra redefines Android excellence with its state-of-the-art camera and stunning display. Featuring an advanced Exynos 2100 processor, it handles demanding tasks effortlessly. The Dynamic AMOLED display and S-Pen compatibility further enhance its versatility.",
+    "specification": [
+      "6.8-inch AMOLED display",
+      "12GB RAM",
+      "128GB storage"
+    ],
+    "availability": "In stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "9",
+    "product_title": "Apple Watch Series 7",
+    "product_image": "../src/assets/images/9.jpg",
+    "category": "smartwatches",
+    "price": 399,
+    "description": "Apple Watch Series 7 is the perfect companion for a healthy lifestyle. It features advanced health monitoring tools like blood oxygen tracking and ECG, along with a larger, more durable display. Stay connected with GPS and cellular capabilities.",
+    "specification": [
+      "Always-On Retina display",
+      "GPS + Cellular"
+    ],
+    "availability": "Out of stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "10",
+    "product_title": "Samsung Galaxy Watch 4",
+    "product_image": "../src/assets/images/10.jpg",
+    "category": "smartwatches",
+    "price": 349,
+    "description": "The Samsung Galaxy Watch 4 is a versatile smartwatch designed for fitness enthusiasts. It provides body composition analysis, sleep tracking, and fitness coaching. Powered by Wear OS, it integrates seamlessly with your Android smartphone.",
+    "specification": [
+      "Super AMOLED display",
+      "Body Composition Analysis"
+    ],
+    "availability": "In stock",
+    "rating": 4.8
+  }
+]
