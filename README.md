@@ -7,7 +7,7 @@
  4. State.
  5. useEffect hook.
  6. useState.
- 7. <Link>.
+ 7. (<Link>).
  8. Handling events like clicks.
  9. if-else, ternary operators.
  10. map().
