@@ -1,17 +1,28 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineShoppingCart, AiOutlineHeart } from "react-icons/ai";
 import { useLoaderData, useParams } from "react-router-dom";
+import { AddToCart, AddToWishlist } from "../utilities/index";
 
 const ProductDetails = () => {
   const productDetailsData = useLoaderData()
   const { id } = useParams()
   console.log(id)
-  // console.log(productDetails.id)
   const [proDe, setProDe] = useState({})
   useEffect(() => {
     const singleproDe = productDetailsData.find((sp) => sp.product_id === id)
     setProDe(singleproDe)
   }, [productDetailsData, id])
+
+  const handleWishlist = (gadgets2) => {
+    AddToWishlist(gadgets2)
+    console.log(gadgets2)
+  }
+
+  const handleCart = (gadgets1) => {
+    AddToCart(gadgets1);
+  }
+  
+
   return (
     <div className="bg-gray-50">
       {/* Header Section */}
@@ -52,12 +63,8 @@ const ProductDetails = () => {
           <h3 className="text-lg font-bold mt-6">Specification:</h3>
           <ul className="list-decimal list-inside mt-2 space-y-1 text-gray-600">
             {
-                  proDe.specification?.map((spec) => <li>{spec}</li>)
+              proDe.specification?.map((spec) => <li>{spec}</li>)
             }
-            {/* <li>{proDe.specification}</li> */}
-            {/* <li>16GB RAM</li>
-            <li>512GB SSD</li>
-            <li>Touchscreen</li> */}
           </ul>
 
           {/* Ratings */}
@@ -78,11 +85,11 @@ const ProductDetails = () => {
 
           {/* Buttons */}
           <div className="mt-6 flex items-center gap-4">
-            <button className="btn btn-primary flex items-center gap-2">
+            <button onClick={() => handleCart(proDe)} className="btn btn-primary flex items-center gap-2">
               <AiOutlineShoppingCart className="text-lg" />
               Add To Cart
             </button>
-            <button className="btn btn-outline flex items-center gap-2">
+            <button onClick={() => handleWishlist(proDe)} className="btn btn-outline flex items-center gap-2">
               <AiOutlineHeart className="text-lg" />
             </button>
           </div>

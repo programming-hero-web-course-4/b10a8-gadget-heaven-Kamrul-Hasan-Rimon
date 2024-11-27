@@ -19,7 +19,7 @@ export default function Banner() {
                     <img
                         src={banner}
                         alt="VR Headset"
-                        className=" object-cover rounded-xl shadow-lg "
+                        className=" object-cover  rounded-xl shadow-lg "
                     />
                 </div>
             </div>

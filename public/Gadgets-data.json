@@ -91,7 +91,7 @@
   },
   {
     "product_id": "7",
-    "product_title": "iPhone 13 Pro",
+    "product_title": "Samsung Galaxy S21 Ultra",
     "product_image": "../src/assets/images/7.jpg",
     "category": "phones",
     "price": 999,
@@ -105,7 +105,7 @@
   },
   {
     "product_id": "8",
-    "product_title": "Samsung Galaxy S21 Ultra",
+    "product_title": "iPhone 13 Pro",
     "product_image": "../src/assets/images/8.jpg",
     "category": "phones",
     "price": 1199,

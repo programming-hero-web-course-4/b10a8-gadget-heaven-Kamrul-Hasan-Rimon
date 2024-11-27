@@ -1,8 +1,8 @@
 
 export default function Footer() {
   return (
-    <div>
-      <footer className="bg-white text-gray-700 px-8 py-12">
+    <div className=" bg-red-900">
+      <footer className=" text-gray-700 px-8 py-12">
         <div className="text-center mb-8">
           <h1 className="text-2xl font-bold">Gadget Heaven</h1>
           <p className="text-gray-500 mt-2">

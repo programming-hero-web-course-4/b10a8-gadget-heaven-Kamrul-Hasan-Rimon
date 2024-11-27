@@ -6,7 +6,7 @@ export default function Navber() {
 const location = useLocation()
 const navStyle = location.pathname !== '/'? 'bg-white text-[#9538E2] rounded-t-xl' : 'bg-[#9538E2] text-white rounded-t-xl'
 const navStyle2 = location.pathname !== '/' ? '' : 'px-3 pt-3'
-
+const navStyle3 = location.pathname !== '/' ? 'text-purple-500' : 'text-white'
   return (
     <div className={`${navStyle2}`}>
       <div className={`navbar ${navStyle} py-4 px-10 shadow-md`}>
@@ -16,7 +16,7 @@ const navStyle2 = location.pathname !== '/' ? '' : 'px-3 pt-3'
 
         <div className="flex-none lg:hidden">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost text-white">
+            <label tabIndex={0} className={`btn btn-ghost ${navStyle3}`}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -43,7 +43,7 @@ const navStyle2 = location.pathname !== '/' ? '' : 'px-3 pt-3'
                 <Link to='/statistics' className="hover:underline">Statistics</Link>
               </li>
               <li>
-                <Link to={'/Dashboard'} className="hover:underline">Dashboard</Link>
+                <Link to={`/Dashboard/`} className="hover:underline">Dashboard</Link>
               </li>
             </ul>
           </div>
@@ -52,7 +52,7 @@ const navStyle2 = location.pathname !== '/' ? '' : 'px-3 pt-3'
         <div className="hidden lg:flex mr-80 flex-1 justify-center gap-8">
           <Link to={'/'} className="hover:underline">Home</Link>
           <Link to='/statistics' className="hover:underline">Statistics</Link>
-          <Link to={'/Dashboard'} className="hover:underline">Dashboard</Link>
+          <Link to={`/Dashboard/`} className="hover:underline">Dashboard</Link>
         </div>
 
         <div className="flex gap-4">
