@@ -5,22 +5,21 @@ import toast, { Toaster } from 'react-hot-toast';
 export default function MainLayout() {
 
   return (
-    <div className="flex flex-col justify-between h-screen" >
-      <div>
-        <Toaster />
-        <div className="flex flex-col justify-between h-screen bg-gray-100">
-          {/* Navber Section */}
-          <Navber></Navber>
-          {/* Dynamic Section */}
-          <div className="h-full">
-
-            <Outlet></Outlet>
-          </div>
-        </div>
-        {/* Footer Section */}
-
+    <div className="flex flex-col content-between h-screen">
+      <Toaster />
+      <div className="bg-gray-100">
+        {/* Navber Section */}
+        <Navber></Navber>
+        {/* Dynamic Section */}
+        
       </div>
-      <Footer></Footer>
+      {/* Footer Section */}
+      
+      <div className="h-full">
+
+          <Outlet></Outlet>
+        </div>
+        <Footer></Footer>
     </div>
   )
 }

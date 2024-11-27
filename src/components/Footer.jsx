@@ -1,7 +1,7 @@
 
 export default function Footer() {
   return (
-    <div className=" bg-red-900">
+    <div>
       <footer className=" text-gray-700 px-8 py-12">
         <div className="text-center mb-8">
           <h1 className="text-2xl font-bold">Gadget Heaven</h1>
